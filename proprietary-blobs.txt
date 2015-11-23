@@ -41,6 +41,15 @@ etc/firmware/fw_bcmdhd.bin
 etc/firmware/fw_bcmdhd_mfg.bin
 vendor/firmware/BCM4334B0_002.001.013.1820.2163.hcd
 
+# Audio ACDB
+etc/acdbdata/Bluetooth_cal.acdb
+etc/acdbdata/General_cal.acdb
+etc/acdbdata/Global_cal.acdb
+etc/acdbdata/Handset_cal.acdb
+etc/acdbdata/Hdmi_cal.acdb
+etc/acdbdata/Headset_cal.acdb
+etc/acdbdata/Speaker_cal.acdb
+
 # Bluetooth
 bin/bdaddr_loader
 bin/btnvtool
