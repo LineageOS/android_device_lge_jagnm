@@ -35,7 +35,9 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 BOARD_HAS_QCOM_WCNSS := false
 BOARD_HAS_NFC := true
 
-PRODUCT_PROPERTY_OVERRIDES += ro.telephony.default_network=10
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.default_network=10 \
+    ro.sf.lcd_density=320
 
 PRODUCT_PACKAGES += hwaddrs
 
