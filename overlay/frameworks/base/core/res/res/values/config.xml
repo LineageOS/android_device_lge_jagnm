@@ -24,6 +24,15 @@
                   autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
 
+    <!-- Default LED on time for notification LED in milliseconds. -->
+    <integer name="config_defaultNotificationLedOn">25</integer>
+
+    <!-- Default LED off time for notification LED in milliseconds. -->
+    <integer name="config_defaultNotificationLedOff">2000</integer>
+
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">false</bool>
+
     <!-- Our modem doesn't support this query yet -->
     <string name="config_radio_access_family">GPRS|EDGE|UMTS|HSDPA|HSUPA|HSPA|HSPAP|GSM|WCDMA|LTE</string>
 
