@@ -33,7 +33,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Common specific options
 BOARD_HAS_QCOM_WCNSS := false
-BOARD_HAS_NFC := true
+BOARD_HAS_NFC := false
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=10 \
