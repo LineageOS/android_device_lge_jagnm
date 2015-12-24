@@ -22,6 +22,5 @@ $(call inherit-product, device/lge/jagnm/device_jagnm.mk)
 PRODUCT_DEVICE := jagnm
 PRODUCT_NAME := full_jagnm
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG-D722
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RELEASE_NAME := LG G3s
