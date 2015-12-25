@@ -40,6 +40,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
 
 PRODUCT_PACKAGES += hwaddrs
+BOARD_HAS_NFC := true
 
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
