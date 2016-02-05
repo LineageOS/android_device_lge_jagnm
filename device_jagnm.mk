@@ -37,7 +37,8 @@ BOARD_HAS_NFC := false
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=10 \
-    ro.sf.lcd_density=320
+    ro.sf.lcd_density=320 \
+    ro.config.vc_call_vol_steps=6
 
 PRODUCT_PACKAGES += hwaddrs
 BOARD_HAS_NFC := true
