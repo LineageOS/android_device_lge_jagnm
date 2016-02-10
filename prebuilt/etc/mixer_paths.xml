@@ -873,6 +873,8 @@
 
     <path name="camcorder-mic">
         <path name="handset-mic" />
+	<ctl name="ADC1 Volume" value="12"/>
+	<ctl name="DEC1 Volume" value="80"/>
     </path>
 
     <path name="headset-camcorder-mic">
