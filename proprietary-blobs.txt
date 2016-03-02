@@ -55,6 +55,7 @@ etc/acdbdata/Handset_cal.acdb
 etc/acdbdata/Hdmi_cal.acdb
 etc/acdbdata/Headset_cal.acdb
 etc/acdbdata/Speaker_cal.acdb
+vendor/lib/libacdbloader.so
 
 # Bluetooth
 bin/bdaddr_loader
