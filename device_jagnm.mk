@@ -44,6 +44,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += hwaddrs
 BOARD_HAS_NFC := true
 
+# FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
+
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
