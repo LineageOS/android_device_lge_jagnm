@@ -23,4 +23,7 @@
 
 /* Defined if the kernel does not have support for CLOCK_BOOTTIME_ALARM */
 #define KERNEL_MISSING_CLOCK_BOOTTIME_ALARM TRUE
+
+#define HCILP_INCLUDED FALSE
+#define BT_WAKE_VIA_USERIAL_IOCTL FALSE
 #endif
