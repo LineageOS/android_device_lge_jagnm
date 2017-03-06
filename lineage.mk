@@ -14,3 +14,10 @@ PRODUCT_MODEL := LG-D722
 PRODUCT_DEVICE := jagnm
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_BRAND := lge
+
+# Fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE="jagnm" \
+    PRODUCT_NAME="jagnm_global_com" \
+    BUILD_FINGERPRINT="lge/jagnm_global_com/jagnm:4.4.2/KOT49I.A1415241157/1415241157:user/release-keys" \
+    PRIVATE_BUILD_DESC="jagnm_global_com-user 4.4.2 KOT49I.A1415241157 1415241157 release-keys"
