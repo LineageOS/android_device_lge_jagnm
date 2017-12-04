@@ -58,6 +58,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CMActions
 
+# IRRC
+BOARD_HAS_LG_IRRC := true
+
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
 $(call inherit-product, vendor/lge/jagnm/jagnm-vendor.mk)
